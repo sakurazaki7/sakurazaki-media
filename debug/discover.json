@@ -613,6 +613,449 @@
      "name": "whats_new"
     }
    ]
+  },
+  "DeletePostInput": {
+   "name": "DeletePostInput",
+   "kind": "INPUT_OBJECT",
+   "inputFields": [
+    {
+     "name": "id",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "PostId",
+       "kind": "SCALAR",
+       "ofType": null
+      }
+     }
+    }
+   ],
+   "enumValues": null
+  },
+  "PostId": {
+   "name": "PostId",
+   "kind": "SCALAR",
+   "inputFields": null,
+   "enumValues": null
   }
- }
+ },
+ "mutations": [
+  {
+   "name": "createSnippet",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreateSnippetInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "deleteSnippet",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "DeleteSnippetInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "updateSnippet",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "UpdateSnippetInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createCollaborationNote",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreateCollaborationNoteInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "deleteCollaborationNote",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "DeleteCollaborationNoteInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "updateCollaborationNote",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "UpdateCollaborationNoteInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createPost",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreatePostInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "deletePost",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "DeletePostInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "editPost",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "EditPostInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "movePostInQueue",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "MovePostInQueueInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "publishPostNow",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "PublishPostNowInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "addPostToContentItem",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "AddPostToContentItemInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createContentItem",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreateContentItemInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createContentItemDraft",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreateContentItemDraftInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "deleteContentItem",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "DeleteContentItemInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "promoteContentItemDraftToPosts",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "PromoteContentItemDraftToPostsInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "removePostFromContentItem",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "RemovePostFromContentItemInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "updateContentItem",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "UpdateContentItemInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "updateContentItemDraft",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "UpdateContentItemDraftInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createTag",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreateTagInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "deleteTag",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "DeleteTagInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "updateTag",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "UpdateTagInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createPostTemplate",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreatePostTemplateInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "deletePostTemplate",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "DeletePostTemplateInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "updatePostTemplate",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "UpdatePostTemplateInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "name": "createIdea",
+   "args": [
+    {
+     "name": "input",
+     "type": {
+      "name": null,
+      "kind": "NON_NULL",
+      "ofType": {
+       "name": "CreateIdeaInput",
+       "kind": "INPUT_OBJECT"
+      }
+     }
+    }
+   ]
+  }
+ ]
 }
