@@ -1,2 +1,4 @@
-2026-11-25T21:11:10.630128+09:00 post
-2026-11-26-tiktok 2026-11-26T22:07:00+09:00 media/video/ALF001_S01_Rain_on_Glass.mp4
+2026-11-25T21:18:17.089478+09:00 publish_now
+2026-11-26-x 今すぐ公開: {'publishPostNow': {'__typename': 'PostActionSuccess'}}
+2026-11-26-instagram 今すぐ公開: {'publishPostNow': {'__typename': 'PostActionSuccess'}}
+2026-11-26-tiktok 今すぐ公開: {'publishPostNow': {'__typename': 'PostActionSuccess'}}
