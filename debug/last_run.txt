@@ -1,3 +1,2 @@
-2026-11-25T18:56:55.915722+09:00 post
+2026-11-25T21:11:10.630128+09:00 post
 2026-11-26-tiktok 2026-11-26T22:07:00+09:00 media/video/ALF001_S01_Rain_on_Glass.mp4
-失敗: 2026-11-26-tiktok {'__typename': 'InvalidInputError', 'message': 'Invalid post: Video could not be read from its URL.'}
