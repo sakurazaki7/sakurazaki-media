@@ -95,6 +95,25 @@ def main():
                 info["types"][n] = {"error": str(e)[:300]}
         json.dump(info, open("debug/discover.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(json.dumps(info, ensure_ascii=False)[:3000]); return
+    if MODE == "publish_now":
+        # 予約済みの「対象日」の投稿を今すぐ公開し、記録の日付を今日に付け替える
+        state = load("posts/sent.json", {})
+        done = state.setdefault("done", {})
+        target = os.environ.get("TODAY", "")
+        real = dt.datetime.now(JST).date().isoformat()
+        log = []
+        for key in [k for k in list(done) if k.startswith(target)]:
+            q = """mutation($input: PublishPostNowInput!){ publishPostNow(input:$input){ __typename } }"""
+            try:
+                r = gql(q, {"input": {"id": done[key]}})
+                log.append(f"{key} 今すぐ公開: {r}")
+                done[real + key[len(target):]] = done.pop(key)
+            except Exception as e:
+                log.append(f"失敗: {key} {str(e)[:400]}")
+        print("\n".join(log))
+        open("debug/last_run.txt", "w", encoding="utf-8").write(f"{dt.datetime.now(JST).isoformat()} publish_now\n" + "\n".join(log) + "\n")
+        json.dump(state, open("posts/sent.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        return
     lib = load("posts/library.json", {})
     state = load("posts/sent.json", {})
     today = dt.datetime.now(JST).date()
