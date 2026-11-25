@@ -53,17 +53,18 @@ def build_today(lib, state, today):
     # X：毎日1件、ライブラリを順番に
     if i < len(lib["x"]):
         p = lib["x"][i]
-        out.append(("x", p["text"], p.get("image")))
+        out.append(("x", p["text"], p.get("video") or p.get("image")))
     else:
         open("debug/needs_content.txt", "w", encoding="utf-8").write(f"{today} Xのライブラリが尽きました。追加してください\n")
     # Instagram・TikTok：決まった曜日に、YouTubeで公開済み（前日まで）で未使用のショート
     for ch in ("instagram", "tiktok"):
         if ch in sp:
             out.append((ch, sp[ch]["text"], sp[ch].get("media"))); continue
-        if today.weekday() not in lib["reel_weekdays"] and not (ch == "tiktok" and i == 0):
+        days = lib["reel_weekdays"][ch] if isinstance(lib["reel_weekdays"], dict) else lib["reel_weekdays"]
+        if today.weekday() not in days and not (ch == "tiktok" and i == 0):
             continue
         used = set(state.setdefault("used_reels", {}).setdefault(ch, []))
-        cand = [r for r in lib["reels"] if r["short"] not in used and dt.date.fromisoformat(r["yt"]) < today]
+        cand = [r for r in lib["reels"] if r["short"] not in used and (not r.get("yt") or dt.date.fromisoformat(r["yt"]) < today)]
         if not cand:
             open("debug/needs_content.txt", "a", encoding="utf-8").write(f"{today} {ch}に使える新しいショートがありません\n")
             continue
