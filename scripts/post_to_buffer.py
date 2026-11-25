@@ -86,6 +86,13 @@ def main():
                 info["types"][n] = type_info(n)
             except Exception as e:
                 info["types"][n] = {"error": str(e)[:300]}
+        mq = """{ __schema { mutationType { fields { name args { name type { name kind ofType { name kind } } } } } } }"""
+        info["mutations"] = gql(mq)["__schema"]["mutationType"]["fields"]
+        for n in ["DeletePostInput", "PostId"]:
+            try:
+                info["types"][n] = type_info(n)
+            except Exception as e:
+                info["types"][n] = {"error": str(e)[:300]}
         json.dump(info, open("debug/discover.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(json.dumps(info, ensure_ascii=False)[:3000]); return
     lib = load("posts/library.json", {})
