@@ -130,7 +130,7 @@ def main():
         log.append(("[dry] " if MODE == "dry" else "") + f"{key} {when.isoformat()} {media}")
         if MODE == "dry":
             continue
-        q = """mutation($input: CreatePostInput!){ createPost(input:$input){ __typename ... on PostActionSuccess { post { id } } } }"""
+        q = """mutation($input: CreatePostInput!){ createPost(input:$input){ __typename ... on PostActionSuccess { post { id } } ... on InvalidInputError { message } } }"""
         try:
             r = gql(q, {"input": inp})["createPost"]
         except Exception as e:
