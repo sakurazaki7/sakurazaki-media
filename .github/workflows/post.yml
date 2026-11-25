@@ -8,6 +8,10 @@ on:
         description: "discover（設定確認）/ dry（予約せず確認）/ post（予約する）"
         required: true
         default: "discover"
+      today:
+        description: "対象日（YYYY-MM-DD、空欄なら今日）"
+        required: false
+        default: ""
 permissions:
   contents: write
 jobs:
@@ -22,6 +26,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           MODE: ${{ github.event.inputs.mode || 'post' }}
+          TODAY: ${{ github.event.inputs.today }}
           PAGES_BASE: https://sakurazaki7.github.io/sakurazaki-media
         run: python scripts/post_to_buffer.py
       - name: 記録を保存
