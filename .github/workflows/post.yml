@@ -1,0 +1,33 @@
+name: Buffer 自動予約
+on:
+  schedule:
+    - cron: "17 9 * * *"   # 毎日 18:17 JST（翌24時間分を予約）
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "discover（設定確認）/ dry（予約せず確認）/ post（予約する）"
+        required: true
+        default: "discover"
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 予約
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          MODE: ${{ github.event.inputs.mode || 'post' }}
+          PAGES_BASE: https://sakurazaki7.github.io/sakurazaki-media
+        run: python scripts/post_to_buffer.py
+      - name: 記録を保存
+        run: |
+          git config user.name "sakurazaki7-bot"
+          git config user.email "sakurazaki7.official@gmail.com"
+          git add posts/sent.json debug/ || true
+          git diff --cached --quiet || git commit -m "自動予約の記録を更新"
+          git push
