@@ -113,18 +113,24 @@ def main():
         cid = by_service.get(service) or (by_service.get("x") if ch == "x" else None)
         if not cid:
             log.append(f"チャンネルなし: {ch}"); continue
+        is_video = bool(media) and media.endswith(".mp4")
         inp = {"text": text, "channelId": cid, "schedulingType": "automatic", "mode": "customScheduled",
+               "needsApproval": False, "assets": [],
                "dueAt": when.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")}
         if media:
             url = f"{BASE}/{media}"
-            inp["assets"] = [{("video" if url.endswith(".mp4") else "image"): {"url": url}}]
-        meta = lib.get("metadata", {}).get(ch)
-        if meta and media and media.endswith(".mp4"):
-            inp["metadata"] = meta
+            inp["assets"] = [{("video" if is_video else "image"): {"url": url}}]
+        # AI生成の表示（規程3章11）を全媒体でオン
+        if ch == "x":
+            inp["metadata"] = {"twitter": {"isAiGenerated": True}}
+        elif ch == "instagram":
+            inp["metadata"] = {"instagram": {"type": "reel" if is_video else "post", "shouldShareToFeed": True, "isAiGenerated": True}}
+        elif ch == "tiktok":
+            inp["metadata"] = {"tiktok": {"isAiGenerated": True}}
         log.append(("[dry] " if MODE == "dry" else "") + f"{key} {when.isoformat()} {media}")
         if MODE == "dry":
             continue
-        q = """mutation($input: CreatePostInput!){ createPost(input:$input){ __typename ... on PostActionSuccess { post { id } } ... on MutationError { message } } }"""
+        q = """mutation($input: CreatePostInput!){ createPost(input:$input){ __typename ... on PostActionSuccess { post { id } } } }"""
         try:
             r = gql(q, {"input": inp})["createPost"]
         except Exception as e:
