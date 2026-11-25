@@ -1,0 +1,338 @@
+{
+ "start": "2026-11-26",
+ "times": {
+  "x": "21:07",
+  "instagram": "21:37",
+  "tiktok": "22:07"
+ },
+ "special": {
+  "2026-11-26": {
+   "instagram": {
+    "text": "はじめまして、桜崎家の七姉妹です🌙\n長女の琴音から七女の莉子まで、夜に寄りそう作業用BGMを届けます。\n3時間のフルバージョンはプロフィールのリンクから。\n※キャラクター・楽曲はAI（ChatGPT／Suno）で制作しています\n#作業用BGM #lofi #勉強用BGM #チルBGM",
+    "media": "media/img/intro_1080x1350.jpg"
+   }
+  }
+ },
+ "reel_weekdays": [
+  0,
+  3,
+  5
+ ],
+ "x": [
+  {
+   "sister": "全員",
+   "text": "はじめまして。桜崎家の七姉妹です🌙\n夜の作業や勉強のおともに、7人で作業用BGMを届けていきます。毎日だれかが顔を出すので、よろしくね。\n最初の3時間はこちら👇\nhttps://youtu.be/VBABK38ihog\n※わたしたちはAIで制作した架空のキャラクターです",
+   "image": "media/img/intro_1080x1350.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】今夜もおつかれさま。0時をすぎたら、音を少しだけ下げて。そのくらいがいちばん集中できるよ🎧",
+   "image": "media/img/kotone_K10.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】締切前の夜は、通知を切ってタイマー25分。終わったら水を一杯。……ちゃんと飲んだ？",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】夜の街の灯りって、ジャズのコードみたいじゃない？ 今夜は少しだけ大人のビートで。",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】雨の音とページをめくる音。それだけで、夜はちょっと長くなる気がします☔ 今なに読んでますか？",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】今日いちばんがんばったこと、ひとつだけ教えて！ わたしは姉たちを起こしたこと☀️",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】明け方の空って、青がいちばんやさしい時間なの。……もうすぐ、わたしの番みたい。",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】お姉ちゃんたち夜型すぎ！ わたしは朝のカフェ派です☕ 朝の作業BGMも、いつか作りたいな。",
+   "image": "media/img/riko.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】妹たち、にぎやかでしょう。みんなで少しずつ曲を作っています。今週もいっしょにがんばろうね。",
+   "image": "media/img/kotone_K01.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】作業が進まない日は、「5分だけ」って決めて始めるの。5分たったら、たいてい続けられるから。",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】12月の街、きらきらしてきたね。年末に向けて、ちゃんと自分にもごほうびを。",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】眠る前に読む本は、ちょっとだけ難しいものを選びます。ほどよく眠くなるので📖",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】週末の夜ドライブ、BGMは何派？ わたしはボサノバ一択！",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】眠れない夜は、無理に眠ろうとしなくていいよ。音を聴いてたら、そのうち朝が来るから。",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】今日のラテアート、ハートが崩れてクマになった🐻 かわいいからセーフ！",
+   "image": "media/img/riko.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】雨の夜は、ノートを開くだけで少し落ち着くの。今夜は何を書く？☔",
+   "image": "media/img/kotone_K07.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】机の上、片づけた？ 物がひとつ減るだけで、頭の中も少し静かになるわよ。",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】がんばる夜ほど、ちょっといい飲み物を用意するの。気分から入るのも立派な作戦よ☕",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】読みかけの本に、しおりをはさむ瞬間が好きです。続きがある、っていう安心感。",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】夕焼けを見ると、今日もいい日だったなって思えるの。みんなの今日はどうだった？🌅",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】夢の中で、きれいなメロディを聴いた気がする。……起きたら忘れちゃった。",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】夜ふかしさんたち、ちゃんと朝ごはん食べてる？ 莉子は食パン2枚派です🍞",
+   "image": "media/img/riko.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】がんばりすぎた日は、何もしない30分も大事な作業だよ。お茶でもいれて、一曲だけ聴いていって🌙",
+   "image": "media/img/kotone.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】今日の目標、ひとつだけ書いてから始めて。全部やろうとすると、ひとつも終わらないから。",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】窓の外の夜景を見ながら作業すると、少しだけ主人公になれる気がしない？🌃",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】雨の日は、紅茶を濃いめにいれます。……音楽は、もちろん静かなもので。",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】作業の合間にストレッチ！ 肩をぐるっと3回まわして、はい、もうひとがんばり💪",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】夜と朝のあいだって、時間がゆっくり流れてる気がしない？",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】朝の光の中で聴くローファイも、すっごくいいんだよ！ 早起きした人、いる？",
+   "image": "media/img/riko.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】3時間ずっと集中しなくていいの。途中で休んでも、音はちゃんと待ってるから。\nhttps://youtu.be/VBABK38ihog",
+   "image": "media/img/kotone_K10.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】眠いなら寝なさい。徹夜した分は、だいたい翌日に取り返されるんだから。",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】週末の夜くらい、肩の力を抜いて。ベースの音に身をまかせて。",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】最近読んだ本の一文が、ずっと頭に残っています。言葉って、ふしぎですね。",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】凛ねえに「静かにして」って言われた……。だから今夜は小さな声で応援するね📣",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】ふとんにくるまって聴く音楽が、いちばん好き。……おやすみ、じゃなくて、またね。",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】琴音お姉ちゃんの選曲、ずるいくらい落ち着くんだよね。……わたしも負けないから！",
+   "image": "media/img/riko.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】冬の夜は、窓の外の灯りが少しやさしく見えるね。手、冷えてない？",
+   "image": "media/img/kotone_K01.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】……べつに心配してるわけじゃないけど。今日の分、終わった？",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】今夜のおすすめは、ブラシのドラムとあたたかい低音。グラスじゃなくて、マグでどうぞ。",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】図書館みたいに静かなBGMを、今夜もかけておきます。どうぞ、ごゆっくり。",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】海の近くで聴くローファイって最高なんだよ。いつかみんなで行きたいな🌊",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】窓の外が少し明るくなってきたら、今日はもう、ここまででいいんだよ。",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】作業がんばった人には、莉子から花丸あげます💮",
+   "image": "media/img/riko.jpg"
+  },
+  {
+   "sister": "琴音",
+   "text": "【琴音】今週もここまで来られたね。えらいよ。続きは、また明日の夜に🎧",
+   "image": "media/img/kotone_K07.jpg"
+  },
+  {
+   "sister": "凛",
+   "text": "【凛】勉強中のBGMは、歌詞がないほうが頭に入るの。だから今夜もこの音にしたわ📚",
+   "image": "media/img/rin.jpg"
+  },
+  {
+   "sister": "麗奈",
+   "text": "【麗奈】明日の自分が楽になるように、今夜の自分がひとつだけ進めておくの。それがいい女の夜の過ごし方。",
+   "image": "media/img/reina.jpg"
+  },
+  {
+   "sister": "栞",
+   "text": "【栞】みなさんの「夜に読みたい本」、よかったら教えてください。……メモしておきます✍️",
+   "image": "media/img/shiori.jpg"
+  },
+  {
+   "sister": "沙羅",
+   "text": "【沙羅】がんばってる人、みんなえらい！ 今夜もいっしょに走りきろう！",
+   "image": "media/img/sara.jpg"
+  },
+  {
+   "sister": "澪",
+   "text": "【澪】もうすぐ、わたしが選んだ曲を届けられるみたい。明け方の、静かなやつ。……たのしみにしてて。",
+   "image": "media/img/mio.jpg"
+  },
+  {
+   "sister": "莉子",
+   "text": "【莉子】いつか7人で、朝から夜までつながるBGMを作るのが夢なんだ。応援してね！",
+   "image": "media/img/riko.jpg"
+  }
+ ],
+ "reels": [
+  {
+   "short": "S01",
+   "yt": "2026-11-22",
+   "video": "media/video/ALF001_S01_Rain_on_Glass.mp4",
+   "instagram": "【琴音】雨の夜は、窓の音とベースだけで十分。今夜の1曲は「Rain on Glass」🌧\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #雨の日 #lofi #集中",
+   "tiktok": "雨の夜、窓をたたく音と低いベース🌧 フルの3時間はYouTube「夜更けの低音」で #作業用BGM #lofi #勉強用BGM ※AIで制作"
+  },
+  {
+   "short": "S02",
+   "yt": "2026-11-24",
+   "video": "media/video/ALF001_S02_Analog_Glow.mp4",
+   "instagram": "【琴音】週のはじまりの夜は、アナログの温かい音から。今夜の1曲は「Analog Glow」🎧\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #lofi #勉強用BGM #チルBGM",
+   "tiktok": "アナログの温かい音で、もうひと踏ん張り🎧 フルはYouTube「夜更けの低音」 #作業用BGM #chill #lofi ※AIで制作"
+  },
+  {
+   "short": "S03",
+   "yt": "2026-11-26",
+   "video": "media/video/ALF001_S03_Last_Fade.mp4",
+   "instagram": "【琴音】一日の終わりに、音がゆっくり消えていく夜。今夜の1曲は「Last Fade」🌙\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #夜 #lofi #チルBGM",
+   "tiktok": "一日の終わりに、音がゆっくり消えていく🌙 フルはYouTube「夜更けの低音」 #作業用BGM #lofi #夜 ※AIで制作"
+  },
+  {
+   "short": "S04",
+   "yt": "2026-11-29",
+   "video": "media/video/ALF001_S04_Night_Window.mp4",
+   "instagram": "【琴音】夜が静かになってからが、いちばん集中できる時間。今夜の1曲は「Night Window」🌙\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #深夜 #lofi #集中",
+   "tiktok": "夜が静かになってからが、本番。Night Window🌙 フルはYouTube「夜更けの低音」 #作業用BGM #lofi #深夜 ※AIで制作"
+  },
+  {
+   "short": "S05",
+   "yt": "2026-12-01",
+   "video": "media/video/ALF001_S05_Brushed_Hours.mp4",
+   "instagram": "【琴音】指先が冷える夜も、音はあたたかく。今夜の1曲は「Brushed Hours」❄\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #冬 #lofi #チルBGM",
+   "tiktok": "雪の夜は、ブラシのドラムとあったかい低音で❄ フルはYouTube「夜更けの低音」 #作業用BGM #冬 #lofi ※AIで制作"
+  },
+  {
+   "short": "S06",
+   "yt": "2026-12-03",
+   "video": "media/video/ALF001_S06_Even_Keel.mp4",
+   "instagram": "【琴音】急がなくていいよ。このテンポのまま、もう少しだけ。今夜の1曲は「Even Keel」🌙\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #lofi #勉強用BGM #深夜",
+   "tiktok": "ペースは、このままでいい。Even Keel🌙 フルはYouTube「夜更けの低音」 #lofi #作業用BGM #勉強 ※AIで制作"
+  },
+  {
+   "short": "S07",
+   "yt": "2026-12-06",
+   "video": "media/video/ALF001_S07_Tape_Warmth.mp4",
+   "instagram": "【琴音】テープのような、少しざらっとしたあたたかさ。今夜の1曲は「Tape Warmth」☕\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #lofi #カフェ #チルBGM",
+   "tiktok": "コーヒーをいれて、テープの音でひと息☕ フルはYouTube「夜更けの低音」 #lofi #作業用BGM #カフェ ※AIで制作"
+  },
+  {
+   "short": "S08",
+   "yt": "2026-12-08",
+   "video": "media/video/ALF001_S08_Muffled_Lights.mp4",
+   "instagram": "【琴音】窓の向こうの灯りが、少しぼやけて見える夜。今夜の1曲は「Muffled Lights」🌃\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #夜景 #lofi #集中",
+   "tiktok": "ぼやけた街の灯りと、静かなビート🌃 フルはYouTube「夜更けの低音」 #lofi #作業用BGM #夜景 ※AIで制作"
+  },
+  {
+   "short": "S09",
+   "yt": "2026-12-10",
+   "video": "media/video/ALF001_S09_Calm_Ending.mp4",
+   "instagram": "【琴音】今日をやさしく終わらせるための1曲。「Calm Ending」🌙\n3時間のフルバージョンはプロフィールのリンクから。\n※楽曲・映像はAI（Suno／ChatGPT）で制作しています\n#作業用BGM #睡眠前 #lofi #チルBGM",
+   "tiktok": "今日はここまで。Calm Ending🌙 フルはYouTube「夜更けの低音」 #lofi #作業用BGM #おやすみ ※AIで制作"
+  }
+ ]
+}
