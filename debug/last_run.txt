@@ -1,4 +1,4 @@
-2026-11-25T21:42:12.663816+09:00 dry
-[dry] 2026-11-26-x 2026-11-26T21:07:00+09:00 media/video/V01_kotone.mp4
-[dry] 2026-11-26-instagram 2026-11-26T21:37:00+09:00 media/video/ALF001_S01_Rain_on_Glass.mp4
-[dry] 2026-11-26-tiktok 2026-11-26T22:07:00+09:00 media/video/V01_kotone.mp4
+2026-11-26T19:18:26.581873+09:00 post
+2026-11-26-x 2026-11-26T21:07:00+09:00 media/video/V01_kotone.mp4
+2026-11-26-instagram 2026-11-26T21:37:00+09:00 media/video/ALF001_S01_Rain_on_Glass.mp4
+2026-11-26-tiktok 2026-11-26T22:07:00+09:00 media/video/V01_kotone.mp4
